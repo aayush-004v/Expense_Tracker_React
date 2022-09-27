@@ -21,7 +21,7 @@ const Budget = () => {
   };
   
   return (
-    <div className="alert alert-secondary">
+    <div className="alert alert-secondary d-flex justify-content-between align-items-center">
       {isEditing ? (
         <EditBudget handleSaveClick={handleSaveClick} budget = {budget} />
       ) : (
